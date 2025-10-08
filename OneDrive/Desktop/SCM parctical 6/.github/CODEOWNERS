@@ -1,0 +1,5 @@
+
+/frontend/*     @org/frontend
+/backend/*      @org/backend
+/common/*       @org/frontend
+/common/api/*   @org/backend

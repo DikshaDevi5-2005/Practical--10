@@ -1,0 +1,11 @@
+name: Reusable CI Workflow
+
+on:
+  workflow_call:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Setup Node Composite Action
+        uses: ./.github/actions/setup-node
